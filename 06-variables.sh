@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FAMILY=("MOUNIKA","TAURN","NAGAMALLA REDDY","GEETHA")
+FAMILY=("MOUNIKA" "TAURN" "NAGAMALLA REDDY" "GEETHA")
 
 echo "family head is : ${FAMILY[2]}"
 

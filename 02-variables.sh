@@ -2,7 +2,6 @@
 
 #writing my first script
 
-echo "hello i'm learning devops"
-
-
-echo "feelling happy to see u"
+echo "ramesh :: Hello suresh"
+echo "suresh :: good to know ramesh"
+echo "ramesh ::ohh nice of you"

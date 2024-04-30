@@ -14,6 +14,7 @@ number2=$2
 if [ $number2 -ge 20 ]
 then 
 echo "number is greater than or equal to 20 "
+exit 2
 else 
 echo "number is less than 20"
 fi

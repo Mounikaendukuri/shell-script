@@ -1,8 +1,13 @@
 #!/bin/bash
 
-#happy to learn
-person1=$2
-person2=$3
-echo "$person1 :: Hello $person2"
-echo "$person2 :: good to know $person1"
-echo "$person1 ::ohh nice of you"
+#declaring variables values from the outside of the file
+
+person1=$1
+person2=$2
+person3=$3
+person4=$4
+
+echo "$person1 :Hi hello bro $person4 "
+echo "$person2 :hi all gud afternoon $@"
+echo "$person3 :hi $person1"
+echo "$person4 :hi everyone specially $person1"

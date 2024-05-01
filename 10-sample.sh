@@ -10,12 +10,13 @@ G="\e[33m"
 Y="\e[34m"
 N="\e[0m"
 
-VALIDATE(){
+VALIDATE() {
     if [ $? -ne 0]
     then
         echo" -e $2 is $R failure $N"
     else
         echo"-e $2 is $G sucess $N"
+    fi
 
 }
 

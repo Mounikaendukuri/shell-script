@@ -2,10 +2,11 @@
 
 set -e
 
-fail() {
-  echo "failed at $1: $2
+failure(){
+    echo "Failed at $1: $2"
 }
 
+trap 'failure ${LINENO} "$BASH_COMMAND"' ERR
 trap 'fail ${LINENO} "$BASH_COMMAND"' ERR
 
 USERID=$(id -u) #ERR

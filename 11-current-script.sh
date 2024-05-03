@@ -2,9 +2,8 @@
 
 COURSE="This is mounika reddy endukuri"
 
-echo "before calling other script"
+echo "before calling other script :$COURSE"
 echo "process ID of current script:$$"
+./12-other-script.sh
 
-
-
-COURSE="calling after the script"
+echo="calling after the script:$COURSE"

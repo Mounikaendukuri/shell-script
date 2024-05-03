@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 USERID=$(id -u) #ERR
 
 if [ $USERID -ne 0 ]

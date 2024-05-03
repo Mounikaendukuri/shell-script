@@ -2,6 +2,12 @@
 
 set -e
 
+fail() {
+  echo "failed at $1: $2
+}
+
+trap 'fail ${LINENO} "$BASH_COMMAND"' ERR
+
 USERID=$(id -u) #ERR
 
 if [ $USERID -ne 0 ]
